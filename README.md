@@ -10,11 +10,10 @@ Installation
 Add/replace your adapter with Glimpse.Common.Logging.GlimpseLoggerFactoryAdapter
 
 ```xml
-  <common>
-    <logging>
-      <factoryAdapter type="Glimpse.Common.Logging.GlimpseLoggerFactoryAdapter, Glimpse.Common.Logging">
-      </factoryAdapter>
-    </logging>
-  </common>
-
+<common>
+  <logging>
+    <factoryAdapter type="Glimpse.Common.Logging.GlimpseLoggerFactoryAdapter, Glimpse.Common.Logging">
+    </factoryAdapter>
+  </logging>
+</common>
 ```
