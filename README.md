@@ -23,6 +23,6 @@ NuGet package: https://www.nuget.org/packages/Glimpse.Common.Logging/
 
 Usage:
 
-The library adds a tab Common.Logging tab to Glimpse showing all loggers
+The library adds Common.Logging tab to Glimpse showing all loggers
 
 ![screen shot](http://i.imgur.com/leCSXYl.jpg "Common.Logging tab")
