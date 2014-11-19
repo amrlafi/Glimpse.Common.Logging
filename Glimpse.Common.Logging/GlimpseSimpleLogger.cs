@@ -33,7 +33,16 @@ namespace Glimpse.Common.Logging
         /// <param name="exception">the exception to log (may be null)</param>
         protected override void WriteInternal(LogLevel level, object message, Exception exception)
         {
-            var timer = _timerStrategy();
+            IExecutionTimer timer = null;
+
+            try
+            {
+                timer = _timerStrategy();
+            }
+            catch (Exception e)
+            {
+                System.Diagnostics.Trace.Write(e.Message);
+            }
 
             if (timer == null || _messageBroker == null)
                 return;
