@@ -11,7 +11,9 @@
     <iconUrl>http://getglimpse.com/content/glimpse100.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <copyright>Copyright 2014</copyright>
+    <releaseNotes>
+      Upgraded to Common.Logging version 3.
+    </releaseNotes>
     <tags>Glimpse Common.Logging</tags>
   </metadata>
 </package>
