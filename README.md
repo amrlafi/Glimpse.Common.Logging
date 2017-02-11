@@ -17,6 +17,7 @@ Add/replace your adapter with Glimpse.Common.Logging.GlimpseLoggerFactoryAdapter
   </logging>
 </common>
 ```
+Or consider MultipleLogger(https://www.nuget.org/packages/Common.Logging.MultipleLogger/) if you wish to use multiple adapters.
 
 NuGet package: https://www.nuget.org/packages/Glimpse.Common.Logging/
 
